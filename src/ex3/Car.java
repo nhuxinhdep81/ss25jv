@@ -4,8 +4,6 @@ public class Car {
     private String engine;
     private int seats;
     private String color;
-
-    // Constructor private để không thể khởi tạo Car ngoài Builder
     private Car(CarBuilder builder) {
         this.engine = builder.engine;
         this.seats = builder.seats;
